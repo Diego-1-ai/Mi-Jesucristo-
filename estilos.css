@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "calibri light";
+}
+.contenedor {
+  background: orange;
+  width: 70%;
+  margin: auto;
+}
+header {
+  height: 500px;
+  background-image: url("https://lascartasdemagie.com/wp-content/uploads/2020/09/Sere%CC%81-ungido-con-aceite-fresco.jpg");
+  background-position: center;
+  background-size: cover;
+}
+main {
+  background: green;
+  padding: 20px 30px;
+}
+main .foto {
+  width: 150px;
+  height: 86px;
+  background-color: white;
+  border-radius: 50%;
+  margin: -90px 0 10px 0;
+  border: 6px solid #fb8900;
+}
+main .foto img {
+  width: 100%;
+  border-radius: 50%;
+}
+footer {
+  background: blue url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg-PnZ4wHXvERemiN9Q1rKevlXETOfTZN2iA&s");
+  text-align: center;
+  padding: 25px;
+  color: #ffffff;
+}
